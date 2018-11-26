@@ -14,7 +14,7 @@ repositories:
   pcl:
     type: git
     url: https://github.com/PointCloudLibrary/pcl.git
-    version: master
+    version: pcl-1.8.1 
   poco:
     type: git
     url: https://github.com/pocoproject/poco.git
