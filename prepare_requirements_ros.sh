@@ -4,7 +4,7 @@ set -euf -o pipefail
 
 PYTHON2_VERSION=2.7.13
 
-INSTALL_ROOT=.ros-root
+INSTALL_ROOT=ros-root
 
 if [ -z "$ALDE_CTC_CROSS" ]; then
   echo "Please define the ALDE_CTC_CROSS variable with the path to Aldebaran's Crosscompiler toolchain"

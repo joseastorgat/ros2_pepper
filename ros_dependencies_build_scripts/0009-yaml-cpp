@@ -5,7 +5,7 @@ cd /home/nao/ros_dependencies_sources/build/yaml-cpp
 cmake \
   -DCMAKE_INSTALL_PREFIX=/home/nao/${INSTALL_ROOT}/ros_dependencies \
   -DCMAKE_BUILD_TYPE=Release \
-  -DCMAKE_TOOLCHAIN_FILE=/home/nao/ros/ros_catkin_ws/ctc-cmake-toolchain.cmake \
+  -DCMAKE_TOOLCHAIN_FILE=/home/nao/${INSTALL_ROOT}/ros/ros_catkin_ws/ctc-cmake-toolchain.cmake \
   -DALDE_CTC_CROSS=/home/nao/ctc \
   -DCMAKE_FIND_ROOT_PATH="/home/nao/${INSTALL_ROOT}/ros_dependencies;/home/nao/ctc" \
   -DBUILD_SHARED_LIBS=ON \
